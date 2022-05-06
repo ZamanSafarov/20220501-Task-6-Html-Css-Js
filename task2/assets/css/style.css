@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(10, 10, 22);
+}
+#wrapper{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6px;
+}
+.product{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#algo-expert{
+    background-color: rgb(102, 102, 199);
+    width: 75%;
+    margin: 12px auto;
+    padding: 12px 0;
+}
+#systems-expert{
+    background-color: red;
+    width: 50%;
+    order: -1;
+    padding: 12px 0;
+    
+}
+#ml-expert{
+    margin: 12px 0;
+    background-color: orange;
+    width: 30%;
+    height: 75px;
+    order: -1;
+}
+#fronted-expert{
+    background-color: rgb(61, 114, 114);
+    width: 40%;
+    padding: 12px 0;
+    align-self: flex-end;
+}
+#programming-expert{
+    margin: 12px 0 0 0;
+    background-color:rgb(88, 28, 43);
+    height: 75px;
+    width: 59.47%;
+    margin-left: 10px;
+}
